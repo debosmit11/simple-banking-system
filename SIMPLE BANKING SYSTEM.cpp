@@ -25,30 +25,35 @@ int main()
 			{
 			if (age>=18)
 			printf ("you are eligible for a savings account \n %s savings account created \n",name);
+			else printf ("not eligible for specific account type \n");
 		}
 			break;
 		case 2:
 			{
 			if (age>=18)
 			printf ("you are eligible for salary account \n %s salary account created \n",name);
+			else printf ("not eligible for specific account type \n");
 		}
 			break;
 		case 3:
 			{
 			if (age>=18)
 			printf ("you are eligible for recurring account \n %s recurring account created \n",name);
+			else printf ("not eligible for specific account type \n");
 		}
 			break;
 		case 4:
 			{
 			if (age>=55)
 			printf ("you are eligible for a pension account \n %s pension account created \n",name);
+			else printf ("not eligible for specific account type \n");
 		}
 			break;
 		case 5:
 			{
 			if (age<=18)
 			printf ("you are eligible for a childrens account \n %s childrens account created \n",name);
+			else printf ("not eligible for specific account type \n");
 		}
 			break;
 		default:
